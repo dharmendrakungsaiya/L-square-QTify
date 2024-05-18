@@ -1,0 +1,13 @@
+.navbar {
+    background-color: var(--color-primary);
+    width: 1440px;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.logoDiv{
+    display: flex;
+    margin: 14px;
+  }
