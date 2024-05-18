@@ -1,11 +1,11 @@
 import React from "react";
 import Stylesheet from "../Button/Button.module.css";
 
-const Button = ({children}) => {
+const Button = () => {
     return(
-        <div>
-            <button className={Stylesheet.button} >{children}</button>
-        </div>
+        
+            <button className={Stylesheet.button} >Give Feedback</button>
+        
     )
 }
 
