@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav className={StyleSheet.navbar}>
             <div className={StyleSheet.logoDiv}><img src={Logo} alt="logo"></img></div>
             <Search search={"Search a song of your choice"} />
-            <Button children={"Give feedback"}/>
+            <Button/>
         </nav>
         </>
     )

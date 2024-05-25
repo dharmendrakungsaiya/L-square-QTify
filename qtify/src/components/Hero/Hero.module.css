@@ -1,30 +1,27 @@
-.hero{
-    width: 1440px;
-    background-color: var(--color-black);
+
+.hero {
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.title{
+    background-color: var(--color-black);
+    
+  }
+  .title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     line-height: 48px;
     font-weight: 600;
-    color: white;
     margin: 20px;
-    font-family: 'Poppins';
-}
-
-.title > h1 {
-    font-size: 32px;
-    height: 48px;
-}
-
-.Image {
+    color: white;
+  }
+  .title > h1{
+      height: 48px;
+      font-size: 32px;
+  }
+  .Image {
     height: 212px;
     width: 212px;
-    text-align: right;
-}
+  }
