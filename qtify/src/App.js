@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Hero from "./components/Hero/Hero"
 import 'typeface-poppins';
+import Card from './components/Card/Card';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Hero/>
+      <Card/>
     </div>
   );
 }
