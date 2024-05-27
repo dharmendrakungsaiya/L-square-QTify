@@ -56,13 +56,11 @@ const Card = ({data, type}) => {
             <div className={StyleSheet.card}>
               <img src={image} alt='song' loading='lazy' />
               <div className={StyleSheet.banner}>
-                <div className={StyleSheet.pill}>
-                  <p>{likes} Likes</p>
-                </div>
+                <Chip label={`${likes} Likes`} className={StyleSheet.chip} size="small"/>
               </div>
             </div>
             <div className={StyleSheet.titleWrapper}>
-              <p style={{color: "white"}}>{title}</p>
+              <p>{title}</p>
             </div>
           </div>
                 )

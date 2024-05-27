@@ -15,7 +15,7 @@ const Section = ({ title, data, type }) => {
     return (
       <div>
         <div className={Stylesheet.header}>
-        <h3 style={{ fontFamily: 'Poppins', color: "white" }}>{title}</h3>
+        <h3 style={{ fontFamily: 'Poppins', color: 'white' }}>{title}</h3>
           <h4 className={Stylesheet.toggleText} onClick={handleToggle}>
             {carouselToggle ? "Show All" : "Collapse All"}
           </h4>

@@ -6,6 +6,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Stylesheet from '../BasicTabs/BasicTabs.module.css';
+import 'typeface-poppins';
 
 function CustomTabPanel(props) {
 

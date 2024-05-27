@@ -31,6 +31,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     font-family: 'Poppins';
+    color: var(--color-white);
 }
 
 .pill{
@@ -38,5 +39,5 @@
     padding: 6px;
     width: max-content;
     background-color: var(--color-black);
-    border-radius: 10px;
+    border-radius: 10px; 
 }

@@ -19,7 +19,7 @@ const Controls = ({data}) => {
 const Carousel = ({data,renderCardComponent}) => {
 return (
   <div className={Stylesheet.wrapper}>
-      <Swiper initialSlide = {0} modules={{Navigation}} slidesPerView={'auto'} spaceBetween={40} allowTouchMove>
+      <Swiper initialSlide = {0} modules={{Navigation}} slidesPerView={6} spaceBetween={40} allowTouchMove>
           <Controls data={data} />
           <CarouselLeft />
           <CarouselRight />

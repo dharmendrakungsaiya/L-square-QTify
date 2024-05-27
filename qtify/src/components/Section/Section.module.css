@@ -15,6 +15,7 @@
 .toggleText{
     color: var(--color-primary);
     cursor: pointer;
+    font-family: 'Poppins';
 }
 
 
