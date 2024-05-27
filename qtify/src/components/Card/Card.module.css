@@ -1,5 +1,8 @@
 .wrapper{
     width: 160px;
+  /* width: 159px;
+  height: 232px;
+  color: var(--css-white) */
 }
 
 .card{
@@ -8,6 +11,16 @@
     height: 205px;
     border-radius: 10px;
     overflow: hidden;
+    object-fit: cover;
+  /* background-color: var(--css-white);
+  height: 205px;
+  border-radius: 10px;
+  overflow: hidden; */
+}
+
+.img{
+  height:205px;
+  width: 159px;
 }
 
 .banner{

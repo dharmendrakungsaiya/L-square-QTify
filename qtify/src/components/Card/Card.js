@@ -14,7 +14,7 @@ const Card = ({data, type}) => {
                     <Tooltip title={`${songs?.length} songs`} placement='top' arrow>
           <div className={StyleSheet.wrapper}>
             <div className={StyleSheet.card}>
-              <img src={image} alt='album'/>
+              <img src={image} alt='album' className={StyleSheet.img}/>
               <div className={StyleSheet.banner}>
                 <Chip label={`${follows} Follows`} className={StyleSheet.chip} size="small"/>
               </div>
@@ -34,7 +34,7 @@ const Card = ({data, type}) => {
                     <Tooltip title={`${songs?.length} songs`} placement='top' arrow>
           <div className={StyleSheet.wrapper}>
             <div className={StyleSheet.card}>
-              <img src={image} alt='song' loading='lazy' />
+              <img src={image} alt='song' loading='lazy'/>
               <div className={StyleSheet.banner}>
                 <div className={StyleSheet.pill}>
                   <p>{likes} Likes</p>
@@ -54,7 +54,7 @@ const Card = ({data, type}) => {
                 return(
                     <div className={StyleSheet.wrapper}>
             <div className={StyleSheet.card}>
-              <img src={image} alt='song' loading='lazy' />
+              <img src={image} alt='song' loading='lazy' className={StyleSheet.img}/>
               <div className={StyleSheet.banner}>
                 <Chip label={`${likes} Likes`} className={StyleSheet.chip} size="small"/>
               </div>
