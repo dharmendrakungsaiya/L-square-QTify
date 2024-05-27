@@ -3,6 +3,7 @@ import Stylesheet from "../Section/Section.module.css";
 import Card from "../Card/Card";
 import { CircularProgress } from "@mui/material";
 import Carousel from "../Carousel/Carousel";
+import 'typeface-poppins';
 
 
 const Section = ({ title, data, type }) => {
@@ -14,7 +15,7 @@ const Section = ({ title, data, type }) => {
     return (
       <div>
         <div className={Stylesheet.header}>
-          <h3>{title}</h3>
+        <h3 style={{ fontFamily: 'Poppins', color: "white" }}>{title}</h3>
           <h4 className={Stylesheet.toggleText} onClick={handleToggle}>
             {carouselToggle ? "Show All" : "Collapse All"}
           </h4>

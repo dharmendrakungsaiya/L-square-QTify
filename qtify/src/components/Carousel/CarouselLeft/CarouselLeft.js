@@ -5,32 +5,18 @@ import {useSwiper, Swiper, SwiperSlide} from "swiper/react";
 
 const CarouselLeft = () => {
     const swiper = useSwiper();
-    const [isBeginning, setIsBeginning] = useState(swiper?.isBeginning || false);
+    const [isBeginning,setIsBeginning] = useState(swiper.isBeginning)
 
     useEffect(() => {
-        if (swiper) {
-            const handleSlideChange = () => {
-                setIsBeginning(swiper.isBeginning);
-            };
-
-            swiper.on("slideChange", handleSlideChange);
-
-            // Initial state check
-            handleSlideChange();
-
-            // Clean up the event listener on component unmount
-            return () => {
-                swiper.off("slideChange", handleSlideChange);
-            };
-        }
-    }, [swiper]);
-
-    return(
-        <div className={Stylesheet.leftNavigation}>
-      {!isBeginning && <LeftArrow onClick={()=>swiper.slidePrev()}/>}
+        swiper.on("slideChange", () => {
+            setIsBeginning(swiper.isBeginning)
+        })
+    },[swiper])
+  return (
+    <div className={Stylesheet.leftNavigation}>
+        {!isBeginning && <LeftArrow onClick={() => swiper.slidePrev()}/>}
     </div>
-    )
-
+  )
 }
 
 export default CarouselLeft;

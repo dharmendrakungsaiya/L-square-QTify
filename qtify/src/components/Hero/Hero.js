@@ -1,6 +1,7 @@
 import React from "react";
 import Stylesheet from "../Hero/Hero.module.css"
 import HeroImage from "../../assets/headphone.png"
+import 'typeface-poppins';
 
 
 const Hero = () => {

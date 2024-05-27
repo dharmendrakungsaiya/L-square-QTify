@@ -1,6 +1,7 @@
 import React from "react";
 import {Chip, Tooltip} from "@mui/material"
 import StyleSheet from "../../components/Card/Card.module.css";
+import "typeface-poppins";
 
 const Card = ({data, type}) => {
 
@@ -19,7 +20,7 @@ const Card = ({data, type}) => {
               </div>
             </div>
             <div className={StyleSheet.titleWrapper}>
-              <p>{title}</p>
+              <p style={{color: "white"}}>{title}</p>
             </div>
           </div>
           </Tooltip>
@@ -41,7 +42,7 @@ const Card = ({data, type}) => {
               </div>
             </div>
             <div className={StyleSheet.titleWrapper}>
-              <p>{title}</p>
+              <p style={{color: "white"}}>{title}</p>
             </div>
           </div>
           </Tooltip>
@@ -61,7 +62,7 @@ const Card = ({data, type}) => {
               </div>
             </div>
             <div className={StyleSheet.titleWrapper}>
-              <p>{title}</p>
+              <p style={{color: "white"}}>{title}</p>
             </div>
           </div>
                 )

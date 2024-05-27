@@ -1,3 +1,20 @@
-.wrapper{
+/* .wrapper{
     position: relative;
-}
+} */
+
+.wrapper {
+    position: relative;
+    width: 100%; /* Ensure wrapper takes full width */
+    overflow: hidden; /* Ensure no overflow issues */
+  }
+  
+  .swiper-container {
+    width: 100%; /* Ensure Swiper container takes full width */
+  }
+  
+  .swiper-slide {
+    display: flex; /* Flex to align items correctly */
+    justify-content: center; /* Center content */
+    width: auto; /* Auto width for each slide */
+  }
+  

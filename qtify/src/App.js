@@ -116,7 +116,7 @@ function App() {
     generateTopAlbumSongs();
     generateNewAlbumSongs();
     generateFilterSongs();
-    // setFilteredDataValues(newAlbumSongs);
+    setFilteredDataValues(newAlbumSongs);
 
   }, [])
 

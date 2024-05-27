@@ -19,7 +19,7 @@ const FilterSection = ({
     return (
         <div>
       <div className={StyleSheet.header}>
-        <h3>{title}</h3>
+        <h3 style={{ fontFamily: 'Poppins', color: "white" }}>{title}</h3>
       </div>
       <BasicTabs value={value} handleChange={handleChange} filteredData={filteredData}/>
       {data.length === 0 ? (
@@ -36,4 +36,4 @@ const FilterSection = ({
     )
   }
   
-  export default FilterSection
+  export default FilterSection;
