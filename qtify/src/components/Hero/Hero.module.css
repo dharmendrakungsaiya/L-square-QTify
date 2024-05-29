@@ -21,6 +21,8 @@
   .title > h1{
       height: 48px;
       font-size: 32px;
+      margin: 0;
+      line-height: 1;
   }
   .Image {
     height: 212px;
